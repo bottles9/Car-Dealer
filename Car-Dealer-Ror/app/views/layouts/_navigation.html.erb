@@ -1,0 +1,44 @@
+<!--================================= Loading -->
+<div id="loading">
+  <div id="loading-center">
+    <%= image_tag('loader.gif', :alt => "") %>
+  </div>
+</div>
+<!--================================= Loading -->
+
+<!--================================= Header  -->
+<header id="header" class="defualt">
+  <div class="menu">
+    <nav id="menu" class="mega-menu">
+      <section class="menu-list-items">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <ul class="menu-logo">
+                <li>
+                  <%= link_to root_path do %>
+                  <%= image_tag "logo-light.png", class: "" %><% end %>
+                </li>
+              </ul>
+              <ul class="menu-links">
+                <li class="active">
+                  <%= link_to 'Home', home_index_path %>
+                </li>
+                <li>
+                  <%= link_to 'About Us', home_about_path %>
+                </li>
+                <li>
+                  <%= link_to 'FAQ', home_faq_path %>
+                </li>
+                <li>
+                  <%= link_to 'Contact Us', home_contact_path %>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </nav>
+  </div>
+</header>
+<!--================================= Header -->

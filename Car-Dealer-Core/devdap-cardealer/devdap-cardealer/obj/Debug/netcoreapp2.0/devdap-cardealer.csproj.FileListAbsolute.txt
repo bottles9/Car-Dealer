@@ -1,0 +1,11 @@
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\bin\Debug\netcoreapp2.0\devdap-cardealer.deps.json
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\bin\Debug\netcoreapp2.0\devdap-cardealer.runtimeconfig.json
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\bin\Debug\netcoreapp2.0\devdap-cardealer.runtimeconfig.dev.json
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\bin\Debug\netcoreapp2.0\devdap-cardealer.dll
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\bin\Debug\netcoreapp2.0\devdap-cardealer.pdb
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\obj\Debug\netcoreapp2.0\devdap-cardealer.csprojResolveAssemblyReference.cache
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\obj\Debug\netcoreapp2.0\devdap-cardealer.csproj.CoreCompileInputs.cache
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\obj\Debug\netcoreapp2.0\devdap-cardealer.AssemblyInfoInputs.cache
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\obj\Debug\netcoreapp2.0\devdap-cardealer.AssemblyInfo.cs
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\obj\Debug\netcoreapp2.0\devdap-cardealer.dll
+D:\Final Themes\NET Core\devdap-cardealer\devdap-cardealer\obj\Debug\netcoreapp2.0\devdap-cardealer.pdb

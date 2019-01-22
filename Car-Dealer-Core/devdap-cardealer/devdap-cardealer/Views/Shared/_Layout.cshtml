@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - devdap_cardealer</title>
+    <!-- Favicon -->
+    <link rel="icon" href="~/images/favicon.ico">
+
+    <environment include="Development">
+
+        <!-- Core Stylesheet -->
+        <link rel="stylesheet" href="~/css/site.css" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="~/css/responsive.css" />
+    </environment>
+    <environment exclude="Development">
+
+        <!-- Core Stylesheet -->
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="~/css/responsive.css" asp-append-version="true" />
+
+    </environment>
+</head>
+<body>
+    <div id="loading">
+        <div id="loading-center">
+            <img src="~/images/loader.gif" alt="">
+        </div>
+    </div>
+    <header id="header" class="defualt">
+        <div class="menu">
+            <nav id="menu" class="mega-menu">
+                <section class="menu-list-items">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <ul class="menu-logo">
+                                    <li>
+                                        <a href=""><img id="logo_img" src="~/images/logo-light.png" alt="logo"> </a>
+                                    </li>
+                                </ul>
+                                <ul class="menu-links">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </nav>
+        </div>
+    </header>
+    @RenderBody()
+
+    <footer class="footer bg-2 bg-overlay-black-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a class="facebook" href="#">
+                                    facebook
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#">
+                                    twitter
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="pinterest" href="#">
+                                    pinterest
+                                    <i class="fa fa-pinterest-p"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dribbble" href="#">
+                                    dribbble
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="google-plus" href="#">
+                                    google plus
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="behance" href="#">
+                                    behance
+                                    <i class="fa fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="about-content">
+                        <a href="#">
+                            <img class="img-responsive" src="~/images/logo-light.png" alt="">
+                        </a>
+                        <p>We provide everything you need to build an amazing dealership website developed especially for car sellers dealers or auto motor retailers.</p>
+                    </div>
+                    <div class="address">
+                        <ul>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>220E Front St. Burlington NC 27215</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>(007) 123 456 7890</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o"></i>
+                                <span>support@website.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="usefull-link">
+                        <h6 class="text-white">Useful Links</h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-double-right"></i> Change Oil and Filter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-double-right"></i> Brake Pads Replacement
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-double-right"></i> Timing Belt Replacement
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-double-right"></i> Pre-purchase Car Inspection
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-double-right"></i> Starter Replacement
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="recent-post-block">
+                        <h6 class="text-white">recent posts</h6>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <img class="img-responsive" src="~/images/car/01.jpg" alt="">
+                            </div>
+                            <div class="recent-post-info">
+                                <a href="#">
+                                    Time to change your
+                                </a>
+                                <span class="post-date">
+                                    <i class="fa fa-calendar"></i>JAN 10, 2018
+                                </span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <img class="img-responsive" src="~/images/car/02.jpg" alt="">
+                            </div>
+                            <div class="recent-post-info">
+                                <a href="#">
+                                    The best time to
+                                </a>
+                                <span class="post-date">
+                                    <i class="fa fa-calendar"></i>JAN 10, 2018
+                                </span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <img class="img-responsive" src="~/images/car/03.jpg" alt="">
+                            </div>
+                            <div class="recent-post-info">
+                                <a href="#">
+                                    Replacing a timing
+                                </a>
+                                <span class="post-date">
+                                    <i class="fa fa-calendar"></i>JAN 10, 2018
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="news-letter">
+                        <h6 class="text-white">subscribe Our Newsletter</h6>
+                        <p>Keep up on our always evolving products features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+                        <form class="news-letter">
+                            <input type="email" placeholder="Enter your Email" class="form-control placeholder">
+                            <a class="button red" href="#">Subscribe</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="text-left">
+                            <p>
+                                ©Copyright 2018 Concept Car Dealer Developed by
+                                <a href="http://www.devdap.com/" target="_blank">devdap.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <ul class="list-inline text-right">
+                            <li>
+                                <a href="#">
+                                    privacy policy
+                                </a> |
+                            </li>
+                            <li>
+                                <a href="#">
+                                    terms and conditions
+                                </a> |
+                            </li>
+                            <li>
+                                <a href="#">
+                                    contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+    <environment include="Development">
+        <script type="text/javascript" src="~/js/jquery.min.js"></script>
+        <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="~/js/mega_menu.js"></script>
+        <script type="text/javascript" src="~/js/jquery.appear.js"></script>
+        <script type="text/javascript" src="~/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="~/js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="~/lib/jquery.tools.min.js"></script>
+        <script type="text/javascript" src="~/lib/jquery.revolution.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.slideanims.min.js"></script>
+
+        <script type="text/javascript" src="~/js/custom.js"></script>
+        <script type="text/javascript">(function (b) { var a = jQuery; var c; a(document).ready(function () { if (a("#rev_slider_2_1").revolution == undefined) { revslider_showDoubleJqueryError("#rev_slider_2_1") } else { c = a("#rev_slider_2_1").show().revolution({ sliderType: "standard", sliderLayout: "fullwidth", dottedOverlay: "none", delay: 9000, navigation: { keyboardNavigation: "off", keyboard_direction: "horizontal", mouseScrollNavigation: "off", mouseScrollReverse: "default", onHoverStop: "off", bullets: { enable: true, hide_onmobile: false, style: "hermes", hide_onleave: false, direction: "horizontal", h_align: "center", v_align: "bottom", h_offset: 0, v_offset: 50, space: 10, tmp: "" } }, visibilityLevels: [1240, 1024, 778, 480], gridwidth: 1570, gridheight: 1000, lazyType: "none", shadow: 0, spinner: "spinner3", stopLoop: "off", stopAfterLoops: -1, stopAtSlide: -1, shuffle: "off", autoHeight: "off", disableProgressBar: "on", hideThumbsOnMobile: "off", hideSliderAtLimit: 0, hideCaptionAtLimit: 0, hideAllCaptionAtLilmit: 0, debugMode: false, fallbacks: { simplifyAll: "off", nextSlideOnWindowFocus: "off", disableFocusListener: false, } }) } }) })(jQuery);</script>
+
+    </environment>
+    <environment exclude="Development">
+        <script type="text/javascript" src="~/js/jquery.min.js"></script>
+        <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="~/js/mega_menu.js"></script>
+        <script type="text/javascript" src="~/js/jquery.appear.js"></script>
+        <script type="text/javascript" src="~/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="~/js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="~/lib/jquery.tools.min.js"></script>
+        <script type="text/javascript" src="~/lib/jquery.revolution.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="~/lib/extensions/revolution.extension.slideanims.min.js"></script>
+
+        <script type="text/javascript" src="~/js/custom.js" asp-append-version="true"></script>
+        <script type="text/javascript">(function (b) { var a = jQuery; var c; a(document).ready(function () { if (a("#rev_slider_2_1").revolution == undefined) { revslider_showDoubleJqueryError("#rev_slider_2_1") } else { c = a("#rev_slider_2_1").show().revolution({ sliderType: "standard", sliderLayout: "fullwidth", dottedOverlay: "none", delay: 9000, navigation: { keyboardNavigation: "off", keyboard_direction: "horizontal", mouseScrollNavigation: "off", mouseScrollReverse: "default", onHoverStop: "off", bullets: { enable: true, hide_onmobile: false, style: "hermes", hide_onleave: false, direction: "horizontal", h_align: "center", v_align: "bottom", h_offset: 0, v_offset: 50, space: 10, tmp: "" } }, visibilityLevels: [1240, 1024, 778, 480], gridwidth: 1570, gridheight: 1000, lazyType: "none", shadow: 0, spinner: "spinner3", stopLoop: "off", stopAfterLoops: -1, stopAtSlide: -1, shuffle: "off", autoHeight: "off", disableProgressBar: "on", hideThumbsOnMobile: "off", hideSliderAtLimit: 0, hideCaptionAtLimit: 0, hideAllCaptionAtLilmit: 0, debugMode: false, fallbacks: { simplifyAll: "off", nextSlideOnWindowFocus: "off", disableFocusListener: false, } }) } }) })(jQuery);</script>
+
+       
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
